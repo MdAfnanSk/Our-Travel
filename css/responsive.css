@@ -81,6 +81,7 @@
     /* destination part start */
     #destination {
         margin-top: 50px;
+        margin-bottom: 50px;
     }
     .common_Head p {
         width: 410px;
@@ -103,7 +104,47 @@
         grid-template-rows: 300px;
     }
 
+    /* choose us part start */
+    .chooseUs_main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .last_div_choose {
+        width: 100%;
+    }
 
+    /* Extra bonus part start */
+    #team{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .team_img img {
+        height: 150px;
+    }
 
+    .team_main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* letter part Start */
+    #letter {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .letter_img img{
+        width: 100%;
+    }
+    .overlay2 {
+        width: 250px;
+        right: 15px;
+        bottom: 50px;
+        height: 80px;
+    }
+    .overlay2 a {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .overlay2 h3 {
+        font-size: 25px;
+    }
 
 }

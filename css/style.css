@@ -228,6 +228,7 @@
 /* ========= destination Part Start ===========*/
 #destination {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .common_Head h3 {
@@ -261,7 +262,7 @@
     column-gap: 24px;
 }
 
-.first_part img{
+.first_part img {
     width: 100%;
     height: 100%;
 }
@@ -270,7 +271,7 @@
     position: relative;
 }
 
-.img_over{
+.img_over {
     position: relative;
 }
 
@@ -292,7 +293,7 @@
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
 }
 
-.second_part{
+.second_part {
     display: grid;
     grid-template-columns: repeat(3, 29% 43.5% 24%);
     grid-template-rows: 286px;
@@ -300,13 +301,13 @@
     margin-top: 20px;
 }
 
-.second_part img{
+.second_part img {
     width: 100%;
     height: 100%;
     border-radius: 16px;
 }
 
-.last_part{
+.last_part {
     display: grid;
     grid-template-columns: repeat(2, 39% 59%);
     grid-template-rows: 300px;
@@ -314,18 +315,199 @@
     margin-top: 20px;
 }
 
-.last_part img{
+.last_part img {
     width: 100%;
     height: 100%;
 }
 
 /* ========= destination Part end ===========*/
-/* ========= menu Part Start ===========*/
-/* ========= menu Part end ===========*/
-/* ========= menu Part Start ===========*/
-/* ========= menu Part end ===========*/
-/* ========= menu Part Start ===========*/
-/* ========= menu Part end ===========*/
+/* ========= choose us Part Start ===========*/
+.chooseUs_main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.chooseUsrow {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.choose_text h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose_text p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.last_part_choose {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.last_div_choose {
+    width: 43%;
+}
+
+
+/* ========= choose us Part end ===========*/
+/* ========= Extra bonus Part Start ===========*/
+#team {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.team_main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.team_row {
+    text-align: center;
+    border: 1px solid #5A5A5D;
+    border-radius: 15px;
+    padding: 30px 0;
+}
+
+.team_img img {
+    height: 250px;
+    overflow: hidden;
+}
+
+.team_text h4 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.team_text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+/* ========= Extra bonus Part end ===========*/
+/* ========= letter Part Start ===========*/
+#letter {
+    display: grid;
+    grid-template-columns: repeat(2, 40% 60%);
+    gap: 24px;
+}
+
+.letter_box {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.letter_box h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+.letter_box p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+hr {
+    margin-bottom: 24px;
+}
+
+.input_part input {
+    display: block;
+    width: 100%;
+    height: 50PX;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-bottom: 16px;
+}
+
+.input_part button {
+    display: block;
+    width: 100%;
+    height: 50PX;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.letter_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay2 {
+    position: absolute;
+    width: 324px;
+    right: 40px;
+    bottom: 57px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-20deg);
+    text-align: center;
+}
+
+.overlay2 a {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 23px;
+    display: block;
+}
+
+.overlay2 h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+}
+
+/* ========= letter Part end ===========*/
 /* ========= menu Part Start ===========*/
 /* ========= menu Part end ===========*/
 /* ========= menu Part Start ===========*/
