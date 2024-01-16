@@ -8,7 +8,7 @@ body {
 }
 
 .width {
-    width: 1170px;
+    width: 1120px;
     margin: 0 auto;
 }
 
@@ -339,6 +339,12 @@ body {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 32px;
+    transition: all linear .3s;
+}
+
+.chooseUsrow:hover {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
 
 .choose_text h3 {
@@ -380,6 +386,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 40px;
+    box-sizing: border-box;
 }
 
 .team_row {
@@ -391,7 +398,7 @@ body {
 
 .team_img img {
     height: 250px;
-    overflow: hidden;
+    width: 100%;
 }
 
 .team_text h4 {
@@ -418,15 +425,17 @@ body {
 /* ========= letter Part Start ===========*/
 #letter {
     display: grid;
-    grid-template-columns: repeat(2, 40% 60%);
+    grid-template-columns: repeat(2, 39% 59%);
     gap: 24px;
     margin-bottom: 100px;
+    box-sizing: border-box;
 }
 
 .letter_box {
     padding: 40px;
     border-radius: 16px;
     border: 1px solid #FF5400;
+    box-sizing: border-box;
 }
 
 .letter_box h3 {
@@ -483,10 +492,15 @@ hr {
     height: 100%;
 }
 
+.letter_img img{
+    width: 100%;
+    height: 100%;
+}
+
 .overlay2 {
     position: absolute;
     width: 324px;
-    right: 40px;
+    right: 17px;
     bottom: 57px;
     height: 120px;
     border-radius: 16px;
