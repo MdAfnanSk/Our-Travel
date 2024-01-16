@@ -51,7 +51,7 @@
 
 .menu_part ul li a {
     text-decoration: none;
-    margin: 0 20px;
+    margin-left: 40px;
     color: #424247;
     text-align: center;
     font-family: Mulish;
@@ -158,7 +158,7 @@
     color: #FFf;
 }
 
-::placeholder{
+::placeholder {
     color: rgba(19, 19, 24, 0.50);
 }
 
@@ -168,10 +168,63 @@
 
 /* ========= banner Part end ===========*/
 
+/* ========= popular tour Part Start ===========*/
+#popular_tour {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
+.tour_text_part {
+    margin-right: 30px;
+}
 
-/* ========= menu Part Start ===========*/
-/* ========= menu Part end ===========*/
+.tour_text_part h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.tour_text_part p {
+    color: rgba(92, 92, 95, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.tour_text_part ul li {
+    color: rgba(92, 92, 95, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.tour_text_part button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+}
+
+.ture_image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ========= popular tour Part end ===========*/
 /* ========= menu Part Start ===========*/
 /* ========= menu Part end ===========*/
 /* ========= menu Part Start ===========*/

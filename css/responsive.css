@@ -1,6 +1,8 @@
 @media screen and (max-width: 600px) {
     .width{
         width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
     #main_menu{
         padding: 0;
@@ -63,7 +65,18 @@
         margin-bottom: 10px !important;
     }
 
+    /* popular Tour part start */
+    #popular_tour {
+        margin-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .tour_text_part {
+        margin-right: 0;
+    }
 
+    .tour_text_part button {
+        margin-bottom: 30px;
+    }
 
 
 
