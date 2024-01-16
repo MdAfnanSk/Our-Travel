@@ -78,8 +78,30 @@
         margin-bottom: 30px;
     }
 
-
-
+    /* destination part start */
+    #destination {
+        margin-top: 50px;
+    }
+    .common_Head p {
+        width: 410px;
+    }
+    .first_part {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 300px;
+        row-gap: 20px;
+    }
+    .second_part{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 300px;
+    }
+    .last_img img {
+        height: 288px;
+    }
+    
+    .last_part{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 300px;
+    }
 
 
 
