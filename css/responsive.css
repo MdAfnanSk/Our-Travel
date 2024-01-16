@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .width{
+        width: 100%;
+    }
+    #main_menu{
+        padding: 0;
+        margin-top: 20px;
+    }
+    .logo_part{
+        width: 202px;
+    }
+    .logo_part img {
+        width: 40px;
+        height: 45px;
+    }
+    .logo_part a:last-child {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .menu_part ul li{
+        display: none;
+    }
+    .menu_part ul i{
+        display: block;
+        font-size: 30px;
+        color: #131318;
+    }
+}
