@@ -25,4 +25,50 @@
         font-size: 30px;
         color: #131318;
     }
+
+    /* banner part start */
+    #banner {
+        padding-bottom: 50px;
+    }
+    .banner_text h1 {
+        font-size: 43px;
+        padding-top: 50px;
+    }
+    .banner_text p {
+        width: 356px;
+    }
+    .banner_third{
+        width: 470px;
+        padding: 20px;
+    }
+    .banner_third form input {
+        display: block;
+        width: 96%;
+        margin: 0 auto;
+        margin-bottom: 10px !important;
+        padding: 0;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .banner_third form select {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px !important;
+    }
+    .banner_third form button {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px !important;
+    }
+
+
+
+
+
+
+
+
+
 }
